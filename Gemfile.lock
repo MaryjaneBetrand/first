@@ -208,11 +208,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
   bcrypt
-=======
   bootstrap-sass
->>>>>>> filling-in-layout
+
   byebug
   childprocess
   coffee-rails (~> 4.0.0)
