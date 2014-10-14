@@ -210,7 +210,6 @@ PLATFORMS
 DEPENDENCIES
   bcrypt
   bootstrap-sass
-
   byebug
   childprocess
   coffee-rails (~> 4.0.0)
