@@ -7,6 +7,8 @@ gem 'rails', '4.2.0.beta1'
 gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.0.beta1'
+gem 'bootstrap-sass'
+gem 'sprockets'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -40,6 +42,9 @@ group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'rspec-rails'
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
 
 
    # Access an IRB console on exceptions page and /console in development

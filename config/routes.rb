@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   get 'users/new'
+=======
+  #get 'users/new'
+
+  root  'static_pages#home'
+  match '/help', to: 'static_pages#help', via: 'get'
+  match '/about',   to: 'static_pages#about',   via: 'get'
+  match '/contact', to: 'static_pages#contact', via: 'get'
+  match '/signup', to: 'users#new', via: 'get'
+>>>>>>> filling-in-layout
 
   root'static_pages#home'
   match '/help',    to: 'static_pages#help',    via: 'get'
@@ -12,7 +22,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  #root 'static_pages#home'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
