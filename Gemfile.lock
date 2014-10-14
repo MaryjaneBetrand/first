@@ -209,10 +209,7 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt
-<<<<<<< HEAD
   bootstrap-sass
-=======
->>>>>>> modeling-users3
   byebug
   childprocess
   coffee-rails (~> 4.0.0)
