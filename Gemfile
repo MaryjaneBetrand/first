@@ -45,6 +45,8 @@ group :development, :test do
   gem 'spork-rails'
   gem 'guard-spork'
   gem 'childprocess'
+  gem 'factory_girl_rails', '4.2.0'
+
 
 
    # Access an IRB console on exceptions page and /console in development
@@ -56,6 +58,6 @@ group :development, :test do
 group :production do
    gem 'rails_12factor', '0.0.2'
 end
-
 end
+
 
